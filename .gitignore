@@ -5,7 +5,7 @@ __pycache__/
 
 # Allure
 tests/allure-results
-
+.venv
 # Idea
 .idea
 
