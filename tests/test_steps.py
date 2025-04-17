@@ -1,6 +1,13 @@
 import allure
+from allure_commons.types import Severity
 from selene import browser, by, be
 
+@allure.tag('mobile')
+@allure.severity(Severity.BLOCKER)
+@allure.feature('Issues #1')
+@allure.story('Search')
+@allure.link('https://github.com', name='Github')
+@allure.title('проверка аннотаций в тесте')
 
 def test_github_steps():
     with allure.step('Открыть \'github.com\''):

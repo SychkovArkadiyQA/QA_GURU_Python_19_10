@@ -8,7 +8,6 @@ def test_search_issue():
     search_repository('eroshenkoam/allure-example')
     open_repository('eroshenkoam/allure-playwright-example')
     click_issues_tab()
-
     element_should_be_visible('span.issue-item-module__defaultNumberDescription--GXzri > span')
 
 
